@@ -16,6 +16,21 @@
         <div class="card-header">
           <h2>Generate a Password</h2>
         </div>
+          <label for="characterRange"></label>
+          <input type="range" min="1" max="128" value="8"
+          id="characterRange">
+          <input type="number" min="1" max="128" value="8"
+          id="characterAmount">
+
+          <label for="Include Uppercase">Include Uppercase?</label>
+          <input type="checkbox" id="Include Uppercase">
+
+          <label for="Include Numbers">Include Numbers?</label>
+          <input type="checkbox" id="Include Numbers">
+
+          <label for="Include Symbols">Include Symbols?</label>
+          <input type="checkbox" id="Include Symbols">
+
         <div class="card-body">
           <textarea
             readonly
